@@ -25,41 +25,17 @@
 }
 
 /*classes*/
-.timespan{
-    color: rgb(80, 80, 80);
-    font-family: Arial, Helvetica, sans-serif; 
-    font-size: 15px; 
+.container{
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+}
+.socialTitle{
+    padding-left: 20px;
+    font-size: 25px;
+    text-decoration: none;
 }
 
-.schoolTitle{
-    color: black;
-    font-family: sans-serif;
-    font-size: 25px;
-}
-.GPA{
-    color: dimgrey;
-    font-family:monospace;
-    font-size: 15px;
-    padding-top: 2px;
-}
-.classTitle{
-    color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
-}
-.classDescriptionHeader{
-    padding-top: 2px;
-    padding-bottom:5px;
-    padding-left:20px;
-    text-decoration: underline;
-}
-.classDescription{
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-}
 
 /*styles*/
 body{
@@ -76,5 +52,12 @@ main{
 }
 
 li{
+    padding-bottom: 7px;
+}
+dt{
+    font-size: 18px;
+}
+dd{
+    display:list-item;
     padding-bottom: 7px;
 }
