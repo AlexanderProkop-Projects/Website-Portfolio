@@ -26,39 +26,15 @@
 
 /*classes*/
 .timespan{
-    color: rgb(80, 80, 80);
-    font-family: Arial, Helvetica, sans-serif; 
+    color: dimgray; 
     font-size: 15px; 
+    padding-bottom: 5px;
 }
 
-.schoolTitle{
+.title{
     color: black;
-    font-family: sans-serif;
+    font-family: Copperplate, fantasy;
     font-size: 25px;
-}
-.GPA{
-    color: dimgrey;
-    font-family:monospace;
-    font-size: 15px;
-    padding-top: 2px;
-}
-.classTitle{
-    color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
-}
-.classDescriptionHeader{
-    padding-top: 2px;
-    padding-bottom:5px;
-    padding-left:20px;
-    text-decoration: underline;
-}
-.classDescription{
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    padding-bottom: 10px;
-    padding-left: 20px;
 }
 
 /*styles*/
