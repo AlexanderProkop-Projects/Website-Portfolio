@@ -1,0 +1,63 @@
+/*Things*/
+#HeaderStyle{
+    /*needed*/
+    top: 0; left: 0; right: 0;
+    height: 75px;
+    background-color: black;
+    position: fixed;
+    /*testing*/
+}
+
+#BodyBackground{
+    /*needed*/
+    background-image: url(Background2.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /*testing*/
+}
+
+#Foreground{
+    /*needed*/
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 10px dimgrey;
+    /*testing*/
+}
+
+/*classes*/
+.container{
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+}
+.socialTitle{
+    padding-left: 20px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+/*styles*/
+body{
+    /*needed*/
+    padding-top: 80px;
+    /*testing*/
+}
+
+main{
+    /*needed*/
+    margin-left: 50px;
+    margin-right: 50px;
+    /*testing*/
+}
+
+li{
+    padding-bottom: 7px;
+}
+dt{
+    font-size: 18px;
+}
+dd{
+    display:list-item;
+    padding-bottom: 7px;
+}
